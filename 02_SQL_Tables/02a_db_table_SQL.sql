@@ -5,12 +5,37 @@
 -- Kommentar 3
 
 /* Datenbanken auf Server anzeigen */
+
 SHOW DATABASES;
 
-#CREATE DATABASE IF NOT EXISTS boo;
-
-#SHOW DATABASES;
+/* DB boo löschen, falls vorhanden */
 
 DROP DATABASE IF EXISTS boo;
 
-SHOW DATABASES;
+
+/*DB boo anlegen, falls noch nicht vorhanden*/
+
+CREATE DATABASE IF NOT EXISTS boo;
+
+/* DB auswählen*/
+
+USE boo;
+
+/*Tabelle cats anlegen, falls noch nicht vorhanden*/
+
+CREATE TABLE IF NOT EXISTS cats
+(
+
+    name VARCHAR(20),
+    age INT
+
+);
+
+/*Alle Tabellen in DB anzeigen*/
+
+SHOW TABLES;
+
+/*Struktur der Tabelle anzeigen*/
+
+DESCRIBE cats;
+
