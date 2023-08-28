@@ -39,3 +39,13 @@ SHOW TABLES;
 
 DESCRIBE cats;
 
+/* ----- Daten---- */
+
+INSERT INTO cats(name,age) VALUES ("Grizabella", 29);
+INSERT INTO cats(age,name) VALUES (35, "Alonzo");
+INSERT INTO cats VALUES ();
+
+/* Inhalte der Tabelle anzeiten*/ 
+
+SELECT * FROM cats; 
+
