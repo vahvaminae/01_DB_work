@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 source 02_SQL_Tables/02a_db_table_SQL.sql
 source 02_SQL_Tables/02b_db_table_SQL.sql
 source 02_SQL_Tables/02c_db_table_SQL.sql
@@ -6,3 +7,9 @@ source 02_SQL_Tables/02d_db_table_SQL.sql
 source 02_SQL_Tables/02b_db_table_SQL.sql
 source 02_SQL_Tables/02c_db_table_SQL.sql
 source 02_SQL_Tables/02d_db_table_SQL.sql
+=======
+source 02_SQL_Tables/02a_db_table_SQL.sql
+source 02_SQL_Tables/02b_db_table_SQL.sql
+source 02_SQL_Tables/02c_db_table_SQL.sql
+source 02_SQL_Tables/02d_db_table_SQL.sql
+>>>>>>> af083aa4fdb2de956a55fb8374b9408d1c422fdc
